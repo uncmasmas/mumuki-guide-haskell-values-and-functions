@@ -1,4 +1,4 @@
-Define `is Bisiesto` function that indicates if a year has 366 days.
+Define `isLeapYear` function that indicates if a year has 366 days.
 
 ```haskell
 ム esBisiesto 2000
