@@ -1,13 +1,13 @@
 Define `isLeapYear` function that indicates if a year has 366 days.
 
 ```haskell
-ム esBisiesto 2000
+ム isLeapYear 2000
 True
 ```
 
-Un año es bisiesto si:
+A year is a leap-year if:
 
-* es múltiplo de 400, o bien
-* es múltiplo de 4 pero no de 100
+* is a multiple of 400, or
+* is a multiple of 4 but is not multiple of 100
 
-Tené en cuenta que existe la función `esMultiploDe`, que definimos anteriormente y que dice si el primer argumento es multiplo del segundo.
+Remeber you can use `isMultipleof` function that takes two argument and says if the first argument is multiplous of the second argument.
