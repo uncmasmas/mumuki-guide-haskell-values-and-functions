@@ -1,4 +1,4 @@
-Existe la funcion `not` que recibe un booleano y devuelve ese booleano negado
+There is a `not` function that receives a boolean and returns that boolean denied. 
 
 ```haskell
 > not True
