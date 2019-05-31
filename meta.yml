@@ -1,0 +1,9 @@
+---
+name: Values and Functions
+locale: en
+type: learning
+beta: false
+language: haskell
+id_format: "%05d"
+order: []
+private: false
