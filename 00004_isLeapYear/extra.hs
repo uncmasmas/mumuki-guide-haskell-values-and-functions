@@ -1,1 +1,1 @@
-esMultiploDe x y = mod x y == 0
+isMultipleOf x y = mod x y == 0

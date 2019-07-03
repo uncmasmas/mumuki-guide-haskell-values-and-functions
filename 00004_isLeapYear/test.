@@ -20,7 +20,7 @@ describe "isLeapYear" $ do
     isLeapYear 100 `shouldBe` False
 
   it "2022 is not leap year" $ do
-    esBisiesto 2022 `shouldBe` False
+    isLeapYear 2022 `shouldBe` False
 
   it "2021 is not leap year" $ do
     isLeapYear 2021 `shouldBe` False
