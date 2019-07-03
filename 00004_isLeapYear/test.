@@ -1,34 +1,34 @@
-let esMultiploDe x y = mod x y == 0
+let isMultipleOf x y = mod x y == 0
 
-describe "esBisiesto" $ do
-  it "1004 es bisiesto" $ do
-    esBisiesto 1004 `shouldBe` True
+describe "isLeapYear" $ do
+  it "1004 is leap year" $ do
+    isLeapYear 1004 `shouldBe` True
 
-  it "8 es bisiesto" $ do
-    esBisiesto 8 `shouldBe` True
+  it "8 is leap year" $ do
+    isLeapYear 8 `shouldBe` True
 
-  it "1996 es bisiesto" $ do
-    esBisiesto 1996 `shouldBe` True
+  it "1996 is leap year" $ do
+    isLeapYear 1996 `shouldBe` True
     
-  it "2000 es bisiesto" $ do
-    esBisiesto 2000 `shouldBe` True
+  it "2000 is leap year" $ do
+    isLeapYear 2000 `shouldBe` True
     
-  it "800 es bisiesto" $ do
-    esBisiesto 800 `shouldBe` True
+  it "800 is leap year" $ do
+    isLeapYear 800 `shouldBe` True
 
-  it "100 no es bisiesto" $ do
-    esBisiesto 100 `shouldBe` False
+  it "100 is not leap year" $ do
+    isLeapYear 100 `shouldBe` False
 
-  it "2022 no es bisiesto" $ do
+  it "2022 is not leap year" $ do
     esBisiesto 2022 `shouldBe` False
 
-  it "2021 no es bisiesto" $ do
-    esBisiesto 2021 `shouldBe` False
+  it "2021 is not leap year" $ do
+    isLeapYear 2021 `shouldBe` False
 
-  it "2014 no es bisiesto" $ do
-    esBisiesto 2014 `shouldBe` False
+  it "2014 is not leap year" $ do
+    isLeapYear 2014 `shouldBe` False
 
-  it "200 no es bisiesto" $ do
-    esBisiesto 200 `shouldBe` False
+  it "200 is not leap year" $ do
+    isLeapYear 200 `shouldBe` False
 
 
