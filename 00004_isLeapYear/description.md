@@ -15,6 +15,6 @@ Remember you can use the function `isMultipleOf` that takes two arguments and sa
 > isMultipleOf 8 2
 True
 
-> isMultupleOf 9 6
+> isMultipleOf 9 6
 False
 ```
