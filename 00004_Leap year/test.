@@ -1,34 +1,11 @@
 let isMultipleOf x y = mod x y == 0
 
 describe "isLeapYear" $ do
-  it "1004 is leap year" $ do
-    isLeapYear 1004 `shouldBe` True
-
-  it "8 is leap year" $ do
-    isLeapYear 8 `shouldBe` True
-
-  it "1996 is leap year" $ do
-    isLeapYear 1996 `shouldBe` True
-    
   it "2000 is leap year" $ do
     isLeapYear 2000 `shouldBe` True
-    
-  it "800 is leap year" $ do
-    isLeapYear 800 `shouldBe` True
-
   it "100 is not leap year" $ do
     isLeapYear 100 `shouldBe` False
-
-  it "2022 is not leap year" $ do
-    isLeapYear 2022 `shouldBe` False
-
-  it "2021 is not leap year" $ do
-    isLeapYear 2021 `shouldBe` False
-
-  it "2014 is not leap year" $ do
-    isLeapYear 2014 `shouldBe` False
-
-  it "200 is not leap year" $ do
-    isLeapYear 200 `shouldBe` False
-
-
+  it "1004 is leap year" $ do
+    isLeapYear 1004 `shouldBe` True
+  it "8 is leap year" $ do
+    isLeapYear 8 `shouldBe` True
