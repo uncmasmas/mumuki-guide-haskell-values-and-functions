@@ -1,4 +1,4 @@
-let isMultipleOf x y = mod x y == 0
+let multiple x y = mod x y == 0
 
 describe "isLeapYear" $ do
   it "2000 is leap year" $ do
